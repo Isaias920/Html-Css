@@ -1,0 +1,18 @@
+Elementos importantes dentro do CSS 
+
+(height = altura) Serve para configurar a altura da caixa
+(witdth = largura) Serve para configurar a largura da caixa
+(border = borda) Serve para adicionar uma borda a caixa 
+(padding = preenchimento) Serve para preencher a distancia da borda e da caixa
+(margin = margem) Cria uma pargem na parte externa da caixa
+(outline = traçado) Cria um traçado entre a margem e a borda
+------------------------------------------------------------------------------------------------------------
+
+Anatomia das Boxins
+
+Ordern de preçedencia nas caixas(boxins)
+
+1° Box
+2° Padding
+3° Border
+4° Marging

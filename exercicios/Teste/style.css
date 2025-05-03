@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: "Bebas";
+    src: url("fonte/geoform/Geoform-ExtraBold.otf") format("opentype");
+}
+
+body{
+    background-color: #97C7FA;
+}
+header{
+    background-color: #4362FA;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 21px;
+    margin: -20px;
+    width: 979px;
+    right: 10px;
+}
+h1{
+font-family: "Bebas", Arial, Helvetica, sans-serif;
+}
+nav{
+    text-align: left;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+main{
+    background-color: white;
+    padding: 20px;
+    padding-top: 0px;
+    margin: auto;
+    right: 800px;
+    width: 800px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
