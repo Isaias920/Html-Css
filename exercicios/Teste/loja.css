@@ -18,12 +18,8 @@
     ---cor4: #675CE6;
 }
 
-body{
-    background-color: var(---cor1);
-}
-
 header{
-    background-image: linear-gradient(to bottom, var(---cor3), var(---cor4));
+    background-image: linear-gradient(to bottom, var(---cor4), var(---cor3));
     font-family: "Bebas", Arial, Helvetica, sans-serif;
     padding: 10px;
     margin: -8px -8px 0px -8px;
@@ -43,20 +39,16 @@ nav > a:hover{
     border-radius: 6px 6px 0px 0px;
 }
 
-main{
-    width: 1000px;
-    margin: auto;
-    background-color: white;
-    padding: 10px;
-    border: 10px;
-    border-radius: 0px 0px 5px 5px;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.342);
+div{
+    background-image: url("imagens/wallpaper002.jpg");
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 25px;
+    background-image: linear-gradient(to top, black,);
 }
 
-h1.primeiro{
-    font-family: "nova", Arial, Helvetica, sans-serif;
-}
-
-p{
-    font-family: Arial, Helvetica, sans-serif;
+div>p{
+    color: white;
 }
