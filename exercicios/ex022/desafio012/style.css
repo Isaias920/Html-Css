@@ -34,26 +34,22 @@ main{
     font-family: "Sriracha", Arial, Helvetica, sans-serif;
 }
 
-div#primeiro{
-    background-color: gray;
-    color: white;
-    height: 555px;
+section#imagem1{
+    background-image: url("imagens/background001.jpg");
+    background-position: center top;
+    background-attachment: fixed;
     margin-left: -8px;
     margin-right: -8px;
-    background-image: url("imagens/background001.jpg");
-    background-position: right center;
-    background-attachment: fixed;
+    background-size: cover;
 }
 
-div#segundo{
-    background-color: gray;
-    color: white;
-    height: 555px;
+section#imagem2{
+    background-image: url("imagens/background002.jpg");
+    background-position: center top;
+    background-attachment: fixed;
     margin-left: -8px;
     margin-right: -8px;
-    background-image: url("imagens/background002.jpg");
-    background-position: right center;
-    background-attachment: fixed;
+    background-size: cover;
 }
 
 p#paragrafo{
@@ -62,6 +58,8 @@ p#paragrafo{
     width: 600px;
     color: black;
     background-attachment: fixed;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 p{
