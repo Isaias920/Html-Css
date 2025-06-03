@@ -9,7 +9,8 @@
             font-family: Arial, Helvetica, sans-serif;
             border: 1px solid black;
             padding: 5px;
-            width: 500px;
+            width: 100px;
+            height: 30px;
             text-align: center;
         }
 
@@ -18,7 +19,8 @@
         }
 
         thead{
-            background-color: lightgray;
+            background-color: gray;
+            color: white;
         }
     </style>
 </head>
@@ -26,16 +28,16 @@
     <table>
         <thead>
             <tr>
-                <th scope="">Área</th>
-                <th>Disciplinas</th>
-                <th>Nota 1</th>
-                <th>Nota 2</th>
-                <th>Média</th>
+                <th scope="row">Área</th>
+                <th scope="row">Disciplinas</th>
+                <th scope="row">Nota 1</th>
+                <th scope="row">Nota 2</th>
+                <th scope="row">Média</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th rowspan="4">Exatas</th>
+                <th rowspan="4" scope="colgroup">Exatas</th>
                 <td>Matematica</td>
                 <td>0.0</td>
                 <td>0.0</td>
@@ -60,11 +62,11 @@
                 <td>0.0</td>
             </tr>
             <thead>
-                <th colspan="4">Média de Exatas</th>
+                <th colspan="4" scope="rowgrounp" scope="col">Média de Exatas</th>
                 <th>0.0</th>
             </thead>
             <tr>
-                <th rowspan="2">Humanas</th>
+                <th rowspan="2" scope="colgroup">Humanas</th>
                 <td>Historia</td>
                 <td>0.0</td>
                 <td>0.0</td>
@@ -77,7 +79,7 @@
                 <td>0.0</td>
             </tr>
             <thead>
-                <th colspan="4">Media de Humanas</th>
+                <th colspan="4" scope="col">Media de Humanas</th>
                 <th>0.0</th>
             </thead>
         </tbody>
