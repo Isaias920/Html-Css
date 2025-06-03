@@ -1,88 +1,89 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas</title>
+    <title>Exercicio de Tabelas</title>
     <style>
-        th, tr, td{
+        body{
             font-family: Arial, Helvetica, sans-serif;
-            border: 1px solid black;
-            padding: 5px;
-            width: 100px;
-            height: 30px;
-            text-align: center;
         }
-
+        
         table{
             border-collapse: collapse;
+            text-align: center;
+        }
+        
+        tr, td, th{
+            padding: 7px;
+            border: 1px solid black;
+            width: 100px;
         }
 
-        thead{
-            background-color: gray;
-            color: white;
+        col.cnome{
+            background-color: chartreuse;
+        }
+
+        .amarelo{
+            background-color: yellow;
+        }
+
+        .vermelhor{
+            background-color: red;
         }
     </style>
 </head>
 <body>
+    <h1>Exercicio de Tabelas</h1>
     <table>
-        <thead>
-            <tr>
-                <th scope="row">Área</th>
-                <th scope="row">Disciplinas</th>
-                <th scope="row">Nota 1</th>
-                <th scope="row">Nota 2</th>
-                <th scope="row">Média</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th rowspan="4" scope="colgroup">Exatas</th>
-                <td>Matematica</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
-            </tr>
-            <tr>
-                <td>Fisica</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
-            </tr>
-            <tr>
-                <td>Quimica</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
-            </tr>
-            <tr>
-                <td>Biologia</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
-            </tr>
-            <thead>
-                <th colspan="4" scope="rowgrounp" scope="col">Média de Exatas</th>
-                <th>0.0</th>
-            </thead>
-            <tr>
-                <th rowspan="2" scope="colgroup">Humanas</th>
-                <td>Historia</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
-            </tr>
-            <tr>
-                <td>Geografia</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
-            </tr>
-            <thead>
-                <th colspan="4" scope="col">Media de Humanas</th>
-                <th>0.0</th>
-            </thead>
-        </tbody>
+        <colgroup>
+            <col class="amarelo">
+            <col class="vermelhor" span="2">
+            <col class="amarelo">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profisão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>João Pedro</td>
+            <td>M</td>
+            <td>56</td>
+            <td>Motorista</td>
+        </tr>
+        <tr>
+            <td>Maria Clara</td>
+            <td>F</td>
+            <td>21</td>
+            <td>Profesora</td>
+        </tr>
+        <tr>
+            <td>Victor José</td>
+            <td>M</td>
+            <td>34</td>
+            <td>Marcineiro</td>
+        </tr>
+        <tr>
+            <td>Antonio Rufino</td>
+            <td>M</td>
+            <td>56</td>
+            <td>Pedreiro</td>
+        </tr>
+        <tr>
+            <td>Paulo Marcio</td>
+            <td>M</td>
+            <td>32</td>
+            <td>Jogador</td>
+       </tr>
     </table>
 </body>
 </html>
